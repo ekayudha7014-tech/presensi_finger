@@ -10,7 +10,7 @@ $table = isset($_GET['table']) ? $_GET['table'] : '';
 if ($table == 'ATTLOG' && !empty($data)) {
     
     // URL Web App Google Apps Script Anda
-    $gasUrl = "URL_WEB_APP_GOOGLE_APPS_SCRIPT_ANDA_DI_SINI";
+    $gasUrl = "https://script.google.com/macros/s/AKfycbwyOBx32CJhEcqpcbksSiaO8Mz3yY3JLILfHYGNZIe11DL7dPYCiNHZsL8EuxrBDRrBDA/exec";
     
     // Mesin mengirim data dalam format baris teks (ID \t Waktu \t Status)
     $lines = explode("\n", trim($data));
